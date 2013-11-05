@@ -19,6 +19,8 @@
 		844907E3182984F60078E47B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844907CB182984F50078E47B /* UIKit.framework */; };
 		844907EB182984F60078E47B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844907E9182984F60078E47B /* InfoPlist.strings */; };
 		844907ED182984F60078E47B /* Task1objTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844907EC182984F60078E47B /* Task1objTests.m */; };
+		844907F9182985140078E47B /* VAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844907F7182985140078E47B /* VAViewController.m */; };
+		844907FA182985140078E47B /* VAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844907F8182985140078E47B /* VAViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		844907E8182984F60078E47B /* Task1objTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Task1objTests-Info.plist"; sourceTree = "<group>"; };
 		844907EA182984F60078E47B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		844907EC182984F60078E47B /* Task1objTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task1objTests.m; sourceTree = "<group>"; };
+		844907F6182985140078E47B /* VAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAViewController.h; sourceTree = "<group>"; };
+		844907F7182985140078E47B /* VAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAViewController.m; sourceTree = "<group>"; };
+		844907F8182985140078E47B /* VAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VAViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				844907D7182984F50078E47B /* AppDelegate.m */,
 				844907D9182984F50078E47B /* Images.xcassets */,
 				844907CE182984F50078E47B /* Supporting Files */,
+				844907F6182985140078E47B /* VAViewController.h */,
+				844907F7182985140078E47B /* VAViewController.m */,
+				844907F8182985140078E47B /* VAViewController.xib */,
 			);
 			path = Task1obj;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				844907D2182984F50078E47B /* InfoPlist.strings in Resources */,
 				844907DA182984F50078E47B /* Images.xcassets in Resources */,
+				844907FA182985140078E47B /* VAViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844907D8182984F50078E47B /* AppDelegate.m in Sources */,
+				844907F9182985140078E47B /* VAViewController.m in Sources */,
 				844907D4182984F50078E47B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
